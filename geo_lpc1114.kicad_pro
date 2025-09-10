@@ -62,19 +62,11 @@
           ""
         ],
         [
-          "starved_thermal|144745000|122367000|2d5e26e1-a8bc-47a0-a61d-874e2591f68d|5edee8a4-d88b-485b-b310-8e4467ccbd73|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|85344000|113698000|2d5e26e1-a8bc-47a0-a61d-874e2591f68d|b8a44e4b-832d-4cae-a089-c81e83740dfb|B.Cu",
+          "starved_thermal|172974000|97536000|2d5e26e1-a8bc-47a0-a61d-874e2591f68d|12349834-e16e-4395-8b62-0c618a268e8c|F.Cu",
           ""
         ],
         [
           "starved_thermal|85344000|113698000|2d5e26e1-a8bc-47a0-a61d-874e2591f68d|b8a44e4b-832d-4cae-a089-c81e83740dfb|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|87630000|118840000|2d5e26e1-a8bc-47a0-a61d-874e2591f68d|05cd4b11-26f4-4734-ac63-5918dfabe8f6|F.Cu",
           ""
         ]
       ],
@@ -158,7 +150,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -585,12 +577,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

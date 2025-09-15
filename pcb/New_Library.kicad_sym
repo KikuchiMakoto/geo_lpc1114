@@ -195,7 +195,7 @@
 			(pin power_in line
 				(at -17.78 15.24 0)
 				(length 3.81)
-				(name "VSSA"
+				(name "VDDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -213,7 +213,7 @@
 			(pin power_in line
 				(at -17.78 12.7 0)
 				(length 3.81)
-				(name "VDDA"
+				(name "VSSA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -784,7 +784,7 @@
 			(pin power_in line
 				(at -17.78 15.24 0)
 				(length 3.81)
-				(name "VSSA"
+				(name "VDDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -802,7 +802,7 @@
 			(pin power_in line
 				(at -17.78 12.7 0)
 				(length 3.81)
-				(name "VDDA"
+				(name "VSSA"
 					(effects
 						(font
 							(size 1.27 1.27)

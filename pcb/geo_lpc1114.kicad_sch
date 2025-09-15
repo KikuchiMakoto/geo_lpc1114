@@ -4636,6 +4636,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LF33_TO220"
 			(pin_names
 				(offset 0.254)
@@ -5925,6 +6062,12 @@
 		(uuid "73b680ee-25af-4a7c-8b26-ddb80697240f")
 	)
 	(junction
+		(at 455.93 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b6ee39-605f-4c41-b541-3bf9e79874d6")
+	)
+	(junction
 		(at 342.9 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5971,6 +6114,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8074477d-44d4-4eab-a8f0-561bb007013e")
+	)
+	(junction
+		(at 425.45 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89288f01-6f00-4520-97e4-f22e89b9a11c")
 	)
 	(junction
 		(at 520.7 52.07)
@@ -7212,6 +7361,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.88 21.59) (xy 425.45 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277762bc-e2e9-44e0-b2de-1e447ec945e0")
+	)
+	(wire
+		(pts
 			(xy 162.56 43.18) (xy 166.37 43.18)
 		)
 		(stroke
@@ -7759,6 +7918,16 @@
 			(type default)
 		)
 		(uuid "41f0eeaa-3313-40ab-85e2-68aea070d0f6")
+	)
+	(wire
+		(pts
+			(xy 452.12 21.59) (xy 455.93 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42236e92-d27d-4662-a130-88ccad3b9a93")
 	)
 	(wire
 		(pts
@@ -9422,6 +9591,16 @@
 	)
 	(wire
 		(pts
+			(xy 455.93 21.59) (xy 455.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e93f37-d95e-465d-aed0-029983b64dda")
+	)
+	(wire
+		(pts
 			(xy 59.69 238.76) (xy 59.69 283.21)
 		)
 		(stroke
@@ -10549,6 +10728,16 @@
 			(type default)
 		)
 		(uuid "b327cc41-8eb6-44ed-8dcf-cf442343e9ee")
+	)
+	(wire
+		(pts
+			(xy 425.45 21.59) (xy 425.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37c2b0a-eb70-4d9a-bc43-3f03b9b0c9d3")
 	)
 	(wire
 		(pts
@@ -12239,6 +12428,16 @@
 			(type default)
 		)
 		(uuid "ffc37c4c-79a7-442b-8061-275c575a1559")
+	)
+	(label "U2{slash}U12どちらか1個のみ実装する事"
+		(at 458.47 31.75 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ec80c42-a59a-4301-9226-24bb48b94c76")
 	)
 	(global_label "HX711_CLK_2"
 		(shape input)
@@ -23671,6 +23870,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 444.5 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03a11ff-0c5f-4817-a0c2-ebcc2e313662")
+		(property "Reference" "U2"
+			(at 444.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 444.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 444.5 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 447.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 444.5 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db638e93-0f3b-4df2-b7c3-1be0a0bb2841")
+		)
+		(pin "3"
+			(uuid "f52526d6-9cd9-4f33-afaf-59dd3483c26b")
+		)
+		(pin "1"
+			(uuid "fc770530-eef2-4744-b944-ee5e144c1801")
+		)
+		(instances
+			(project ""
+				(path "/b39a4d71-1528-41f6-8466-62558d4d31a9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 100.33 0)
 		(unit 1)
@@ -27654,6 +27924,72 @@
 			(project "geo_lpc1114"
 				(path "/b39a4d71-1528-41f6-8466-62558d4d31a9"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 444.5 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7749f59-865e-480b-91e3-34001300bdc9")
+		(property "Reference" "#PWR068"
+			(at 444.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 444.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 444.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 444.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 444.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fbc0302-debc-4a0e-95a2-3a8cef9862c6")
+		)
+		(instances
+			(project "geo_lpc1114"
+				(path "/b39a4d71-1528-41f6-8466-62558d4d31a9"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,13 @@
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_11c24_freertos_blinky.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_11c24_freertos_blinky.axf" "nxp_lpcxpresso_11c24_freertos_blinky.bin" ; checksum -p LPC1114FN_102 -d "nxp_lpcxpresso_11c24_freertos_blinky.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7484	      8	   2200	   9692	   25dc	nxp_lpcxpresso_11c24_freertos_blinky.axf
+ 
+
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_11c24_periph_blinky.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_11c24_periph_blinky.axf" "nxp_lpcxpresso_11c24_periph_blinky.bin" ; checksum -p LPC1114FN_102 -d "nxp_lpcxpresso_11c24_periph_blinky.bin";
+   text	   data	    bss	    dec	    hex	filename
+   3112	      0	    340	   3452	    d7c	nxp_lpcxpresso_11c24_periph_blinky.axf
+ 
